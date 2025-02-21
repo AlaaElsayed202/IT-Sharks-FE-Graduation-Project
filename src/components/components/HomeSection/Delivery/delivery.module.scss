@@ -1,0 +1,38 @@
+.deliverySection {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin:  0px 300px;
+    max-width: 1200px;
+  }
+  
+  .content {
+    flex: 1;
+    text-align: left;
+    color: #5a5353;  
+  }
+  
+  .imageContainer {
+    flex-shrink: 0;
+  }
+  
+  .deliveryImg {
+    width: 500px;
+    height: auto;
+
+  }
+  
+  .mainTitle {
+    color: red; 
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    color: red; 
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  

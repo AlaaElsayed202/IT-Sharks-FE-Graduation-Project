@@ -1,0 +1,49 @@
+
+  .container {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ImgeAllFood{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 100px;
+  }
+  .loginCard {
+    width: 100%;
+    width: 300px;   
+  
+    padding: 10px;
+    text-align: center;
+    background-color: #f1d2d2;
+  }
+  
+  .title {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+
+  .input {
+    background: transparent;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #df4f4f;  /* خط سفلي فقط */
+  }
+  
+  .button {
+    background-color: #000 !important;
+    color: #f53737 !important;
+    padding: 70px;
+    border: none;
+    cursor: pointer;
+    width: 20px;
+    margin: 20px;
+
+  }
+  
+ 
+  

@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+.services {
+    text-align: center;
+    padding: 10px; 
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d4071f;
+    font-family: "RocknRoll One", sans-serif;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    font-family: "RocknRoll One", sans-serif;
+    margin-bottom: 5px; 
+
+    span {
+        display: block; 
+        color: #df2020;
+        font-size: 24px;
+        font-family: "RocknRoll One", sans-serif;
+    }
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.4; 
+    margin-top: 5px; 
+}

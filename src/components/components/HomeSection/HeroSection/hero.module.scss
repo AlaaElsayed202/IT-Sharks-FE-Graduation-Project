@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+$colortext:#333;
+$coloricon:#d4071f;
+.heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    margin:  100px 350px;
+    gap:70px;
+
+  }
+  
+  .textContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: bolder;
+
+  }
+  
+  .title {
+    font-size: 14px;
+    color: #212529;
+    margin: 0;
+  }
+  
+  .subtitle {
+    font-size: 2px;
+    color: #212529;
+   margin: 0;
+    text-align: left;
+    font-weight: bold;
+   
+  }
+  
+  .highlight {
+    color: #d4071f;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+  }
+  
+  .smallText {
+    font-size: 14px;
+    color: #9399a0;
+    display: inline-block;
+  }
+  
+  .description {
+   
+    color: #777;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  .orderBtn {
+    background-color: #d4071f !important;
+    color: white !important;
+  }
+  
+  .seeFoodBtn {
+    border: 2px solid #d4071f !important;
+    color: #d4071f !important;
+  }
+  
+  .heroImage {
+    width: 450px;
+    height: auto;
+    flex: 1;
+  }
+ 
+.iconHero {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 10px; 
+    font-size: 10px;
+    font-weight: bold;
+    color: $colortext;
+  gap: 10px;
+
+.icon {
+    color: #d4071f; 
+    margin-right: 0px; 
+    width: 20px;
+    margin-top: 10px;
+}
+
+}

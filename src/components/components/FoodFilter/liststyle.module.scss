@@ -1,0 +1,42 @@
+$coloricon:#df2020;
+.title{
+  text-align: center;
+}
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid $coloricon;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: $coloricon; 
+  width:900px;
+  margin: auto;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.filterButton {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}

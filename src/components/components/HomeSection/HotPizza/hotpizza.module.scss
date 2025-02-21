@@ -1,0 +1,65 @@
+$red-color: #df2020;
+
+.foodContainer {
+display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 900px;
+  margin: auto;
+}
+
+.foodCard {
+  border: 2px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+}
+
+.foodImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.foodName {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.foodBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.foodPrice {
+  font-size: 14px;
+  color: $red-color;
+  font-weight: bold;
+}
+
+.button {
+  padding: 5px 10px;
+  background-color: $red-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: darken($red-color, 10%);
+  }
+}
